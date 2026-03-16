@@ -25,9 +25,6 @@ setup(
         "console_scripts": [
             "publisher = ros_consumer.publisher:main",
             "consumer = ros_consumer.consumer:main",
-            "talker = ros_consumer.utils.examples.talker:main",
-            "listener = ros_consumer.utils.examples.listener:main",
-            "simulator = ros_consumer.utils.simulator:main",
             "plot_simulator = ros_consumer.utils.plot_simulator:main",
             "plot_skeletons = ros_consumer.utils.plot_skeletons:main",
         ],
